@@ -44,3 +44,11 @@ jobs:
       - name: Execute Risk Engine
         run: |
           python3 scripts/risk_engine.py
+
+      - name: Upload Security Reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: security-reports
+          path: |
+            semgrep_output.json
+            trivy_output.json
