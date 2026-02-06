@@ -1,0 +1,4 @@
+# These versions are intentionally old/vulnerable for testing
+requests==2.20.0
+flask==1.1.1
+jinja2==2.10.1
