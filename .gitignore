@@ -1,4 +1,7 @@
 __pycache__/
 .pytest_cache/
 *.json
+!config/project_config.json
 .env
+security_scans.db
+artifacts/

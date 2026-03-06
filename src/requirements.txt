@@ -1,4 +1,5 @@
-# These versions are intentionally old/vulnerable for testing
-requests==2.20.0
-flask==1.1.1
-jinja2==2.10.1
+# Core application dependencies (production-safe defaults)
+requests==2.32.3
+flask==3.0.3
+jinja2==3.1.4
+scikit-learn==1.5.1

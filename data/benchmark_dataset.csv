@@ -1,0 +1,93 @@
+commit_id,lines_of_code,cyclomatic_comp,vulnerability_type,sast_alert_status,scan_accuracy,final_label
+a1b2c3d4,412,28,Reentrancy Flaw,Flagged,True Positive,Risky
+e5f6g7h8,45,4,None,Clean,True Negative,Non-Risky
+i9j0k1l2,128,18,Malicious URL,Flagged,True Positive,Risky
+m3n4o5p6,890,12,None,Flagged,False Positive,Non-Risky
+q7r8s9t0,34,22,Port Scanning,Clean,False Negative,Risky
+vfgyw6zb,1024,47,SQL Injection,Flagged,True Positive,Risky
+nz8v12ii,215,15,Cross-Site Scripting,Clean,False Negative,Risky
+826gyup1,67,9,Cross-Site Request Forgery,Flagged,True Positive,Risky
+2spfhv5b,456,30,Directory Traversal,Flagged,True Positive,Risky
+rn7zsedf,800,38,Buffer Overflow,Clean,False Negative,Risky
+qs3d6357,25,2,Hardcoded Password,Flagged,True Positive,Risky
+n3hxvf45,403,58,Hardcoded Password,Clean,False Negative,Risky
+ruudfeea,391,18,Cross-Site Request Forgery,Flagged,True Positive,Risky
+3fl104iv,956,1,Malicious URL,Flagged,True Positive,Risky
+u6htjg8u,1336,26,None,Clean,True Negative,Non-Risky
+2r92fg6t,241,10,None,Clean,True Negative,Non-Risky
+0u8pb0ij,1175,47,Cross-Site Scripting,Flagged,True Positive,Risky
+mp18prfz,696,31,SQL Injection,Flagged,True Positive,Risky
+bzfrrmmq,642,52,Hardcoded Password,Clean,False Negative,Risky
+ngz158pu,653,19,Cross-Site Scripting,Flagged,True Positive,Risky
+eswjkstp,297,22,Directory Traversal,Clean,False Negative,Risky
+toez9hbk,197,6,Cross-Site Scripting,Clean,False Negative,Risky
+gg7be60j,678,18,Cross-Site Request Forgery,Clean,False Negative,Risky
+3rg2377p,1256,43,Cross-Site Request Forgery,Flagged,True Positive,Risky
+1f50jj84,1027,24,Cross-Site Request Forgery,Clean,False Negative,Risky
+zdyikamq,827,28,Cross-Site Request Forgery,Flagged,True Positive,Risky
+ltayiea1,815,28,Directory Traversal,Flagged,True Positive,Risky
+fe5hcyvi,258,51,None,Flagged,False Positive,Non-Risky
+gzdm0wpf,185,51,Directory Traversal,Flagged,True Positive,Risky
+ikei8i4d,726,18,Cross-Site Request Forgery,Flagged,True Positive,Risky
+wqxt0new,1279,12,Port Scanning,Clean,False Negative,Risky
+3k2a3opc,202,59,SQL Injection,Flagged,True Positive,Risky
+4m2rqzoh,738,11,Malicious URL,Clean,False Negative,Risky
+sfuqjipn,685,23,Reentrancy Flaw,Flagged,True Positive,Risky
+09czyrud,1402,6,SQL Injection,Clean,False Negative,Risky
+81vx8zmd,684,6,None,Clean,True Negative,Non-Risky
+gkhveqp1,1050,30,Hardcoded Password,Flagged,True Positive,Risky
+azdom4x9,207,6,Reentrancy Flaw,Clean,False Negative,Risky
+lhmlt1t2,762,35,None,Clean,True Negative,Non-Risky
+72ubyt90,631,4,Hardcoded Password,Flagged,True Positive,Risky
+dc18nn8j,645,30,Port Scanning,Clean,False Negative,Risky
+g73qvvbz,513,37,Hardcoded Password,Flagged,True Positive,Risky
+p6p81q0i,959,28,Port Scanning,Flagged,True Positive,Risky
+vpbnba4v,701,28,Reentrancy Flaw,Flagged,True Positive,Risky
+n7jsfidi,594,3,Malicious URL,Clean,False Negative,Risky
+e5l6ko5e,856,18,SQL Injection,Flagged,True Positive,Risky
+8g2h1z7a,406,22,Port Scanning,Flagged,True Positive,Risky
+iz5d3qbt,616,53,Cross-Site Scripting,Flagged,True Positive,Risky
+fntv9k82,1074,50,Cross-Site Scripting,Clean,False Negative,Risky
+i1w9aks0,175,48,Cross-Site Scripting,Flagged,True Positive,Risky
+w4hdbup3,609,47,None,Clean,True Negative,Non-Risky
+hiywhumq,288,37,Reentrancy Flaw,Flagged,True Positive,Risky
+gtop36hs,335,36,Cross-Site Scripting,Flagged,True Positive,Risky
+bdbarbxc,861,2,Port Scanning,Flagged,True Positive,Risky
+v6o7otu1,1190,16,Reentrancy Flaw,Flagged,True Positive,Risky
+teoku040,1425,15,Hardcoded Password,Flagged,True Positive,Risky
+4qupfizf,1435,26,None,Clean,True Negative,Non-Risky
+fdmvdlf0,1049,19,Directory Traversal,Flagged,True Positive,Risky
+bbc40fi1,782,18,Buffer Overflow,Flagged,True Positive,Risky
+cugvvyvy,1333,38,Cross-Site Scripting,Flagged,True Positive,Risky
+n1n52rau,830,53,None,Flagged,False Positive,Non-Risky
+ccbsvcj4,311,45,Hardcoded Password,Clean,False Negative,Risky
+7qrw0q0n,1075,43,None,Clean,True Negative,Non-Risky
+8jhe0axr,838,54,Buffer Overflow,Flagged,True Positive,Risky
+ntfynauh,761,13,Malicious URL,Clean,False Negative,Risky
+dsvbt9mx,1261,53,Hardcoded Password,Flagged,True Positive,Risky
+gmrk5z7a,732,59,SQL Injection,Clean,False Negative,Risky
+olhkcbbh,1063,31,Reentrancy Flaw,Flagged,True Positive,Risky
+wqrss4ea,321,31,Malicious URL,Clean,False Negative,Risky
+trn57kdg,905,40,None,Clean,True Negative,Non-Risky
+8lhcd2e2,821,51,Hardcoded Password,Flagged,True Positive,Risky
+tcgx602r,249,17,SQL Injection,Flagged,True Positive,Risky
+8s9dt0wo,362,20,Malicious URL,Flagged,True Positive,Risky
+035ify8w,892,13,Malicious URL,Flagged,True Positive,Risky
+nq1zgcgh,639,19,Directory Traversal,Flagged,True Positive,Risky
+rn1kk5aj,1214,43,Hardcoded Password,Flagged,True Positive,Risky
+rkz53fqx,189,25,Port Scanning,Clean,False Negative,Risky
+m399dkpv,1022,54,Malicious URL,Clean,False Negative,Risky
+dlwncbn1,1002,2,Reentrancy Flaw,Clean,False Negative,Risky
+iu7ods2q,527,32,Directory Traversal,Flagged,True Positive,Risky
+c4hfz2uj,663,35,SQL Injection,Flagged,True Positive,Risky
+0wh5t6ap,1046,7,Hardcoded Password,Flagged,True Positive,Risky
+xbihp0jw,106,17,Port Scanning,Flagged,True Positive,Risky
+66ekmdvr,906,60,Directory Traversal,Flagged,True Positive,Risky
+ghp7z6iq,943,13,Cross-Site Request Forgery,Flagged,True Positive,Risky
+b84a3nwr,1288,2,None,Clean,True Negative,Non-Risky
+4jis5kco,666,49,Cross-Site Request Forgery,Clean,False Negative,Risky
+on5fhudv,1210,1,Reentrancy Flaw,Flagged,True Positive,Risky
+sy5ah5qi,483,39,Reentrancy Flaw,Flagged,True Positive,Risky
+eoup6z86,754,16,SQL Injection,Flagged,True Positive,Risky
+e6donyoh,711,59,Hardcoded Password,Clean,False Negative,Risky
+r2uqk4j3,871,18,None,Flagged,False Positive,Non-Risky
