@@ -155,12 +155,21 @@ def calculate_risk_score(issues):
 def main():
     print("--- Shift-Left Sentinel: Risk Calculator ---")
     
-    # 1. Ingest Data
-    semgrep_issues = parse_semgrep('semgrep_output.json')
-    trivy_issues = parse_trivy('trivy_output.json')
+    if len(sys.argv) < 3:
+        print("Usage: python3 risk_engine.py <semgrep_json> <trivy_json>")
+        sys.exit(1)
+
+    # Take inputs from the command line instead of hardcoding
+    semgrep_file = sys.argv[1]
+    trivy_file = sys.argv[2]
+    
+    # 1. Ingest Data using the user-provided filenames
+    semgrep_issues = parse_semgrep(semgrep_file)
+    trivy_issues = parse_trivy(trivy_file)
     all_issues = semgrep_issues + trivy_issues
     
-    print(f"\nSuccessfully loaded {len(all_issues)} issues.")
+    print(f"\nAnalyzing: {semgrep_file} and {trivy_file}")
+    print(f"Successfully loaded {len(all_issues)} issues.")
     
     # 2. Calculate Risk
     total_risk_score = calculate_risk_score(all_issues)
