@@ -40,10 +40,10 @@ jobs:
           python-version: '3.10'
 
       # Module 4: Enforcement Handshake
-      # This step triggers your partner's script (Role 2)
       - name: Execute Risk Engine
         run: |
-          python3 scripts/risk_engine.py
+          # We pass the filenames as arguments here
+          python3 scripts/risk_engine.py semgrep_output.json trivy_output.json
 
       - name: Upload Security Reports
         uses: actions/upload-artifact@v4
